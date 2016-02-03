@@ -1,0 +1,285 @@
+@import "compass";
+@import "compass/layout";
+@import "compass/css3";
+@import "compass/typography";
+
+$hfont-f : 'Oranienbaum', serif;
+$pfont-f : 'Abel', sans-serif;
+$lfont-f : 'Keania One', cursive;;
+
+$lcolor : #E8E7E3;
+$mcolor : scale_color(#24231C , $lightness:40%);
+$dcolor : scale_color(#1D1C24 , $lightness:30%);
+
+$space : 100px;
+
+$hfont-s : 30px;
+$pfont-s : 16px;
+
+@function fluide ($target,$context) {
+ @return percentage($target/$context)*100;   
+}
+
+
+body {
+    font-family: $hfont-f;
+    background-color: $lcolor;
+}
+
+.container {
+    width: 75%;
+}
+
+.nav,h1,h2,h3,h4 {
+    text-transform: uppercase;
+}
+
+i {
+    margin-right: 5px;
+}
+
+.coma1 , .coma2 {
+    font-size: $pfont-s + 30 !important;
+}
+
+.coma1 {
+    float: left;
+    clear: both;
+    margin-right: 2px;
+
+}
+
+.coma2 {
+    float: right;
+    clear: both;
+    margin-left: 3px;
+}
+
+.banner {
+    margin-top: 70px;
+    position: relative;
+	padding: 15em 0em;
+	background: image-url('banner.jpg') no-repeat center;
+	background-size: cover;
+	color: #fff;
+    margin-bottom: $space;
+}
+
+.btn-danger {
+    background-color: $mcolor;
+    width: image-width('pics13.jpg');
+} 
+
+.btn-primary {
+    background-color: scale-lightness(#524C70,50%);
+}
+
+p {
+    line-height: 1.5 !important;
+}
+
+img {
+    border: 1px solid $mcolor;
+    border-radius: 10px;
+}
+
+.btn {
+    font-family: $pfont-f;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.bottom>.container {
+    padding-bottom: 60px;
+    border-bottom: 1px solid #303030;
+}
+
+.navbar-logo {
+    .navbar {
+        background-color: #1D1C24;
+        padding: 10px 0;
+        .navbar-brand {
+            font-family: $lfont-f;
+            font-size: 45px;
+            color: $mcolor !important;
+            padding: 15px 0 0 !important;
+        }
+        a {
+            color: $lcolor;
+            font-family: $pfont-f;
+            font-size: $pfont-s;
+                &:hover {
+                    color: $mcolor;
+            }
+        }
+        .container .nav li.active {
+            color: $dcolor;
+        }
+        
+     }
+}
+
+.main {
+    margin-bottom: $space;
+    h2 , h3 , h4 {
+        color: scale_color(#1D1C24 , $lightness:30%);
+        margin-bottom: 20px;
+    }
+    .border-list {
+    padding: 20px 0 15px;
+    border-right: 1px solid lightgrey;
+    border-left: 1px solid lightgrey;
+    }
+    a {
+        color: scale-lightness(#524C70,30%);
+        font-size: $pfont-s;
+        &:hover {
+            color: $mcolor;
+        }
+    }
+    li {
+        margin: 0 auto;
+        padding: 10px 0;
+        border-bottom: 1px solid lightgrey;
+        width : 250px;
+        &:last-child {
+            border-bottom: none;
+            margin-bottom: 30px;
+        }
+        p {
+            padding: 10px 0 1px;
+            width : 250px;
+            font-size: ($pfont-s - 2px); 
+        }
+        img {
+            float: left;
+            clear: both;
+            display: table;
+            margin: 11px 15px;
+            border-bottom: 1px solid lightgrey;
+
+            }
+        }
+    .pics {
+        margin-bottom: $space;
+        p {
+            margin-bottom: 20px;
+        }     
+    }
+        p , strong {
+            font-family: $pfont-f;
+            font-size : $pfont-s;
+            color : $mcolor;
+        }
+    p {
+        a {
+            text-decoration: underline;
+      }
+    }
+}
+
+.bottom {
+    background: image-url('img01.jpg') repeat;
+    padding-top: 60px;
+    padding-bottom: 0;
+    p , h2 , h4 , strong {
+        color : $lcolor;
+        }
+    a {
+        color: $lcolor;
+        &:hover {
+            color : $mcolor;
+        }
+    }
+    h3 {
+        color: $mcolor;
+    }
+    .well  {
+        background-color: $lcolor;
+        border: 1px solid $mcolor;
+        p {
+           color: $mcolor;
+        }
+    }
+    a {
+      text-decoration: underline;
+    }
+    .feature {
+            img {
+                float: left;
+                margin: 5px;
+                margin-right: 25px;
+                border-radius: 0 ;
+            }
+            h4 {
+                color: $dcolor;
+                font-size: $pfont-s + 2;
+                line-height: 1.3em;
+            }
+            p {
+                font-size: $pfont-s - 2;
+            }
+            .btn {
+            margin-top: 5px;
+            }
+            .well {
+                margin : 0 20px;
+                width : 30%;
+            }
+    }
+    .footer {
+        p , a , strong {
+            display: block;
+            text-align: center;
+        }
+        .well {
+            font-size: $pfont-s + 2;
+            color: $mcolor;
+            text-align: center;
+            line-height: 2.5em;
+            strong {
+                font-size: $pfont-s + 1;
+                color: $dcolor;
+                }
+        }
+        .for-border {
+            padding: 21px 0;
+            border-top: 1px solid #303030;
+            border-bottom: 1px solid #303030;
+            margin: 30px 0;
+            }
+        h3 {
+            text-align: center;
+            margin: 50px auto 30px;
+            }
+        h4 {
+            color: $mcolor;
+            
+        }
+        img {
+            float: left;
+            margin: 5px;   
+            }
+        .last-p {
+            width: 251px;
+        }
+        .btn {
+            display: block;
+            margin: 0 auto;
+            margin-top: 20px;
+        }
+    }
+    .cp {
+    border-top: 1px solid #303030;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    margin-top: 100px;
+    margin-bottom: 0;
+    font-family: $lfont-f;
+    }
+    .container-rem .container {
+    padding-bottom: 0px;
+    }
+}
+

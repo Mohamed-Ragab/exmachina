@@ -1,0 +1,305 @@
+/* line 24, ../sass/main.scss */
+body {
+  font-family: "Oranienbaum", serif;
+  background-color: #E8E7E3;
+}
+
+/* line 29, ../sass/main.scss */
+.container {
+  width: 75%;
+}
+
+/* line 33, ../sass/main.scss */
+.nav, h1, h2, h3, h4 {
+  text-transform: uppercase;
+}
+
+/* line 37, ../sass/main.scss */
+i {
+  margin-right: 5px;
+}
+
+/* line 41, ../sass/main.scss */
+.coma1, .coma2 {
+  font-size: 46px !important;
+}
+
+/* line 45, ../sass/main.scss */
+.coma1 {
+  float: left;
+  clear: both;
+  margin-right: 2px;
+}
+
+/* line 52, ../sass/main.scss */
+.coma2 {
+  float: right;
+  clear: both;
+  margin-left: 3px;
+}
+
+/* line 58, ../sass/main.scss */
+.banner {
+  margin-top: 70px;
+  position: relative;
+  padding: 15em 0em;
+  background: url('../images/banner.jpg?1400074930') no-repeat center;
+  background-size: cover;
+  color: #fff;
+  margin-bottom: 100px;
+}
+
+/* line 68, ../sass/main.scss */
+.btn-danger {
+  background-color: #88856a;
+  width: 282px;
+}
+
+/* line 73, ../sass/main.scss */
+.btn-primary {
+  background-color: #a49fbe;
+}
+
+/* line 77, ../sass/main.scss */
+p {
+  line-height: 1.5 !important;
+}
+
+/* line 81, ../sass/main.scss */
+img {
+  border: 1px solid #88856a;
+  border-radius: 10px;
+}
+
+/* line 86, ../sass/main.scss */
+.btn {
+  font-family: "Abel", sans-serif;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+
+/* line 92, ../sass/main.scss */
+.bottom > .container {
+  padding-bottom: 60px;
+  border-bottom: 1px solid #303030;
+}
+
+/* line 98, ../sass/main.scss */
+.navbar-logo .navbar {
+  background-color: #1D1C24;
+  padding: 10px 0;
+}
+/* line 101, ../sass/main.scss */
+.navbar-logo .navbar .navbar-brand {
+  font-family: "Keania One", cursive;
+  font-size: 45px;
+  color: #88856a !important;
+  padding: 15px 0 0 !important;
+}
+/* line 107, ../sass/main.scss */
+.navbar-logo .navbar a {
+  color: #E8E7E3;
+  font-family: "Abel", sans-serif;
+  font-size: 16px;
+}
+/* line 111, ../sass/main.scss */
+.navbar-logo .navbar a:hover {
+  color: #88856a;
+}
+/* line 115, ../sass/main.scss */
+.navbar-logo .navbar .container .nav li.active {
+  color: #5a576f;
+}
+
+/* line 122, ../sass/main.scss */
+.main {
+  margin-bottom: 100px;
+}
+/* line 124, ../sass/main.scss */
+.main h2, .main h3, .main h4 {
+  color: #5a576f;
+  margin-bottom: 20px;
+}
+/* line 128, ../sass/main.scss */
+.main .border-list {
+  padding: 20px 0 15px;
+  border-right: 1px solid lightgrey;
+  border-left: 1px solid lightgrey;
+}
+/* line 133, ../sass/main.scss */
+.main a {
+  color: #8079a4;
+  font-size: 16px;
+}
+/* line 136, ../sass/main.scss */
+.main a:hover {
+  color: #88856a;
+}
+/* line 140, ../sass/main.scss */
+.main li {
+  margin: 0 auto;
+  padding: 10px 0;
+  border-bottom: 1px solid lightgrey;
+  width: 250px;
+}
+/* line 145, ../sass/main.scss */
+.main li:last-child {
+  border-bottom: none;
+  margin-bottom: 30px;
+}
+/* line 149, ../sass/main.scss */
+.main li p {
+  padding: 10px 0 1px;
+  width: 250px;
+  font-size: 14px;
+}
+/* line 154, ../sass/main.scss */
+.main li img {
+  float: left;
+  clear: both;
+  display: table;
+  margin: 11px 15px;
+  border-bottom: 1px solid lightgrey;
+}
+/* line 163, ../sass/main.scss */
+.main .pics {
+  margin-bottom: 100px;
+}
+/* line 165, ../sass/main.scss */
+.main .pics p {
+  margin-bottom: 20px;
+}
+/* line 169, ../sass/main.scss */
+.main p, .main strong {
+  font-family: "Abel", sans-serif;
+  font-size: 16px;
+  color: #88856a;
+}
+/* line 175, ../sass/main.scss */
+.main p a {
+  text-decoration: underline;
+}
+
+/* line 181, ../sass/main.scss */
+.bottom {
+  background: url('../images/img01.jpg?1453161706') repeat;
+  padding-top: 60px;
+  padding-bottom: 0;
+}
+/* line 185, ../sass/main.scss */
+.bottom p, .bottom h2, .bottom h4, .bottom strong {
+  color: #E8E7E3;
+}
+/* line 188, ../sass/main.scss */
+.bottom a {
+  color: #E8E7E3;
+}
+/* line 190, ../sass/main.scss */
+.bottom a:hover {
+  color: #88856a;
+}
+/* line 194, ../sass/main.scss */
+.bottom h3 {
+  color: #88856a;
+}
+/* line 197, ../sass/main.scss */
+.bottom .well {
+  background-color: #E8E7E3;
+  border: 1px solid #88856a;
+}
+/* line 200, ../sass/main.scss */
+.bottom .well p {
+  color: #88856a;
+}
+/* line 204, ../sass/main.scss */
+.bottom a {
+  text-decoration: underline;
+}
+/* line 208, ../sass/main.scss */
+.bottom .feature img {
+  float: left;
+  margin: 5px;
+  margin-right: 25px;
+  border-radius: 0;
+}
+/* line 214, ../sass/main.scss */
+.bottom .feature h4 {
+  color: #5a576f;
+  font-size: 18px;
+  line-height: 1.3em;
+}
+/* line 219, ../sass/main.scss */
+.bottom .feature p {
+  font-size: 14px;
+}
+/* line 222, ../sass/main.scss */
+.bottom .feature .btn {
+  margin-top: 5px;
+}
+/* line 225, ../sass/main.scss */
+.bottom .feature .well {
+  margin: 0 20px;
+  width: 30%;
+}
+/* line 231, ../sass/main.scss */
+.bottom .footer p, .bottom .footer a, .bottom .footer strong {
+  display: block;
+  text-align: center;
+}
+/* line 235, ../sass/main.scss */
+.bottom .footer .well {
+  font-size: 18px;
+  color: #88856a;
+  text-align: center;
+  line-height: 2.5em;
+}
+/* line 240, ../sass/main.scss */
+.bottom .footer .well strong {
+  font-size: 17px;
+  color: #5a576f;
+}
+/* line 245, ../sass/main.scss */
+.bottom .footer .for-border {
+  padding: 21px 0;
+  border-top: 1px solid #303030;
+  border-bottom: 1px solid #303030;
+  margin: 30px 0;
+}
+/* line 251, ../sass/main.scss */
+.bottom .footer h3 {
+  text-align: center;
+  margin: 50px auto 30px;
+}
+/* line 255, ../sass/main.scss */
+.bottom .footer h4 {
+  color: #88856a;
+}
+/* line 259, ../sass/main.scss */
+.bottom .footer img {
+  float: left;
+  margin: 5px;
+}
+/* line 263, ../sass/main.scss */
+.bottom .footer .last-p {
+  width: 251px;
+}
+/* line 266, ../sass/main.scss */
+.bottom .footer .btn {
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+/* line 272, ../sass/main.scss */
+.bottom .cp {
+  border-top: 1px solid #303030;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  margin-top: 100px;
+  margin-bottom: 0;
+  font-family: "Keania One", cursive;
+}
+/* line 281, ../sass/main.scss */
+.bottom .container-rem .container {
+  padding-bottom: 0px;
+}
